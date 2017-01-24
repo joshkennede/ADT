@@ -153,6 +153,12 @@ public abstract class ArrayBag<T> implements BagInterface<T> {
           } // end for
           return counter;
      } // end of getFrequencyOf
+
+     /**
+      * Tests whether this bag contains a given entry
+      * @param anEntry the entry to locate
+      * @return true if the bag contains anEntry, or false otherwise
+      */
      public boolean contains(T anEntry) {
           return getIndexOf(anEntry) > -1;
      } // end of contains
