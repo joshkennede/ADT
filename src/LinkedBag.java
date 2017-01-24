@@ -28,6 +28,18 @@ public abstract class LinkedBag<T> implements BagInterface<T> {
                data = dataPortion;
                next = nextNode;
           } // end constructor
+          private T getData() {
+               return data;
+          } // end getData
+          private void setData(T newData) {
+               data = newData;
+          } // end setData
+          private Node getNextNode() {
+               return next;
+          } // end getNextNode
+          private void setNextNode(Node nextNode) {
+               next = nextNode;
+          } // end setNextNode
      } // end Node
 
      /**
