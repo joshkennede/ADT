@@ -22,7 +22,7 @@ public abstract class ArrayBag<T> implements BagInterface<T> {
 
      /**
       * Adds a new entry to the bag
-      * @param newEntry the object to added as new entry
+      * @param newEntry the object to be added as new entry
       * @return true if addition is successful, false if not
       */
      public boolean add(T newEntry) {

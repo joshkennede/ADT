@@ -26,7 +26,7 @@ public class ArrayStack<T> implements StackInterface<T> {
      private void ensureCapacity() {
           if (topIndex == stack.length -1) // if array is full
           stack = Arrays.copyOf(stack, 2 * stack.length); // double size of array
-     }
+     } // end ensureCapacity
 
      /**
       * Adds a new entry to the top of the stack
@@ -79,6 +79,6 @@ public class ArrayStack<T> implements StackInterface<T> {
      public void clear() {
           while (!isEmpty()) {
                topIndex = -1;
-          }
+          } // end while
      } // end clear
 } // end ArrayStack
