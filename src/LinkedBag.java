@@ -2,8 +2,6 @@
  * Created by Joshuak on 1/23/2017.
  */
 
-import jdk.nashorn.internal.ir.WhileNode;
-
 /**
  * A class of bags whose entries ar stored in a chain of linked nodes
  * The bag is never full
