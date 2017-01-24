@@ -73,6 +73,9 @@ public class ArrayStack<T> implements StackInterface<T> {
           return topIndex < 0;
      } // end isEmpty
 
+     /**
+      * Clears stack of all entries
+      */
      public void clear() {
           while (!isEmpty()) {
                topIndex = -1;
