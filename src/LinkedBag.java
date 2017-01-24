@@ -144,4 +144,11 @@ public abstract class LinkedBag<T> implements BagInterface<T> {
           return found;
      } // end contains
 
+     /**
+      * Remove all the entries from the bag
+      */
+     public void clear() {
+          while (!isEmpty())
+               remove();
+     } // end clear
 } // end of LinkedBag
