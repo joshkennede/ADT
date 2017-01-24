@@ -122,16 +122,31 @@ public abstract class ArrayBag<T> implements BagInterface<T> {
      public boolean isFull(){
           return numberOfEntries == bag.length;
      } // end of isFull
+
+     /**
+      * Sees whether this bag is empty
+      * @return true if bag is empty; false if not
+      */
      public boolean isEmpty() {
           return numberOfEntries == 0;
      } // end of isEmpty
+
+     /**
+      * Gets the current number of entries in this bag
+      * @return integer number of entries in current bag
+      */
      public int getCurrentSize() {
           return numberOfEntries;
      } // end of getCurrentSize
-     public int getFrequencyOf() {
+
+     /**
+      * Counts the number of times a given entry appears in this bag
+      * @param anEntry the entry to be counted
+      * @return the number of times anEntry appears in the bag
+      */
+     public int getFrequencyOf(T anEntry) {
           int counter = 0;
           for (int index = 0; index < numberOfEntries; index++) {
-               T anEntry = null;
                if (anEntry.equals(bag[index])) {
                     counter++;
                } // end if

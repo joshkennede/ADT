@@ -65,5 +65,4 @@ public interface BagInterface<T> {
       * @return a newly allocated array of all the entries in the bag
       */
      public T[] toArray();
-
 } // end of BagInterface
