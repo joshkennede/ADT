@@ -14,6 +14,13 @@ public class WaitLine {
           reset();
      } // end default constructor
 
+     // Testing...
+     public static void main(String args[]) {
+          WaitLine customerLine = new WaitLine();
+          customerLine.simulate(20,0.5,5);
+          customerLine.displayResults();
+     } // end main
+
      /**
       * Simulate the WaitLine
       * @param duration
