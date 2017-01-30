@@ -78,6 +78,4 @@ public class BinaryTree<T> implements BinaryTreeInterface<T> {
      public int getNumberOfNodes() {
           return root.getNumberOfNodes;
      } // end getNumberOfNodes
-
-
 } // end BinaryTree

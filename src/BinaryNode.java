@@ -10,4 +10,15 @@ public class BinaryNode {
                newRoot.right = (BinaryNode)right.copy();
           return newRoot;
      } // end copy
+
+     public int getHeight() {
+          return getHeight(this);
+     } // end getHeight
+
+     private int getHeight() {
+          int height = 0;
+          if (node != null)
+               height = 1 + Math.max(getHeight(node.left), getHeight(node.right));
+          return height;
+     } // end getHeight
 } // end BinaryNode
