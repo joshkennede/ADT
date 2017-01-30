@@ -53,5 +53,3 @@ public interface DecisionTreeInterface<T> {
      public void reset();
 
 } // end DecisionTreeInterface
-
-
