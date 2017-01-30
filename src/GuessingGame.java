@@ -3,6 +3,7 @@
  * Created by JoshuaK on 1/30/2017.
  */
 
+/*
 public class GuessingGame {
 
      private DecisionTreeInterface tree;
@@ -31,5 +32,7 @@ public class GuessingGame {
                learn();
      } // end play
 
+     private void learn() {
 
-} // end GuessingGame
+     } // end learn
+} // end GuessingGame*/
