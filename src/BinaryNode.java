@@ -1,7 +1,7 @@
 /**
  * Created by JoshuaK on 1/30/2017.
  */
-public class BinaryNode {
+/*public class BinaryNode {
      public BinaryNodeInterface copy() {
           BinaryNode newRoot = new BinaryNode(data);
           if (left != null)
@@ -21,4 +21,4 @@ public class BinaryNode {
                height = 1 + Math.max(getHeight(node.left), getHeight(node.right));
           return height;
      } // end getHeight
-} // end BinaryNode
+} // end BinaryNode*/

@@ -1,10 +1,10 @@
-import jdk.nashorn.internal.ir.BinaryNode;
+/*import jdk.nashorn.internal.ir.BinaryNode;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-/**
+*//**
  * Created by JoshuaK on 1/30/2017.
- */
+ *//*
 public class BinaryTree<T> implements BinaryTreeInterface<T> {
 
      private BinaryNodeInterface root;
@@ -71,11 +71,13 @@ public class BinaryTree<T> implements BinaryTreeInterface<T> {
           return root;
      } // end getRootNode
 
-     public int getHeight() {
-          return root.getHeight();
-     } // end getHeight
-
      public int getNumberOfNodes() {
-          return root.getNumberOfNodes;
+          int leftNumber = 0;
+          int rightNumber = 0;
+          if (left != null)
+               leftNumber = left.getNumberOfNodes();
+          if (right != null)
+               rightNumber = right.getNumberOfNodes();
+          return 1 + leftNumber + rightNumber;
      } // end getNumberOfNodes
-} // end BinaryTree
+} // end BinaryTree*/
